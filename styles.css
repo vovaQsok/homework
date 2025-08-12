@@ -112,7 +112,6 @@ h1 {
 
 .header {
     z-index: -5;
-
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
@@ -170,4 +169,33 @@ h1 {
 
 .hero__button {
     margin-bottom: 242px;
+}
+
+.dignities__cards-list {
+    padding-top: 115px;
+    padding-bottom: 105px;
+    display: flex;
+    column-gap: 31px;
+}
+
+.dignities__cards-image {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 28px;
+}
+
+.dignities__item {
+    background-color: var(--color-gray  );
+    width: 263px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dignities__cards-description {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 13px;
+    padding-inline: 25px;
 }

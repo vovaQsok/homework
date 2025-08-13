@@ -110,14 +110,17 @@ h1 {
     text-transform: uppercase;
 }
 
-.price__current {
+.price__current,
+.price__old {
     color: var(--color-accent);
+    font-weight: 500;
 }
 
 .price__old {
     font-size: 16px;
     color: var(--color-accent);
     text-decoration: line-through;
+    opacity: 0.5;
 }
 
 .header {
@@ -234,7 +237,7 @@ h1 {
 }
 
 .main-burger__description {
-    padding-top: 24px;
+    padding-top: 14px;
     padding-bottom: 13px;
     font-size: 16px;
     opacity: 0.7;

@@ -243,3 +243,8 @@ h1 {
 .prices {
     padding-bottom: 13px;
 }
+
+.main-burger__price,
+.price__current {
+    font-size: 20px;
+}

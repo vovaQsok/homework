@@ -110,6 +110,16 @@ h1 {
     text-transform: uppercase;
 }
 
+.price__current {
+    color: var(--color-accent);
+}
+
+.price__old {
+    font-size: 16px;
+    color: var(--color-accent);
+    text-decoration: line-through;
+}
+
 .header {
     z-index: -5;
     margin-top: 25px;
@@ -198,4 +208,38 @@ h1 {
     margin-top: 28px;
     margin-bottom: 13px;
     padding-inline: 25px;
+}
+
+.main-burger {
+    background-color: var(--color-gray);
+}
+
+.main-burger__content {
+    display: flex;
+    align-items: center;
+}
+
+.main-burger__image {
+    padding-top: 70px;
+    padding-bottom: 54px;
+}
+
+.main-burger__card {
+    width: 370px;
+    margin-left: 210px;
+}
+
+.main-burger__title {
+    font-size: 54px;
+}
+
+.main-burger__description {
+    padding-top: 24px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.prices {
+    padding-bottom: 13px;
 }
